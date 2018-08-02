@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,500,600" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>note taking</h1>
+    </header>
+    <section id="notes"></section>
+    <section>
+        <div class="addNote">
+            <i class="fas fa-plus-circle" id="addBtn"></i>
+        </div>
+    </section>
+    <section class="historyBtm">
+        <div id="history">
+            <h3>history</h3>
+            <span>
+                <i class="fas fa-sort-up" id="arrow"></i>
+            </span>
+            <div id="historyItems"></div>
+        </div>
+    </section>
+    <div id="noteModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>add a note</h2>
+            </div>
+            <div class="modal-body">
+                <input type="text" name="noteTitleTxt" id="noteTitleTxt" placeholder="Enter note title">
+                <textarea name="noteBodyTxt" id="noteBodyTxt" cols="30" rows="10" placeholder="Enter note body"></textarea>
+            </div>
+            <div class="modal-footer">
+                <input type="button" value="add note" id="submitNoteBtn">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
