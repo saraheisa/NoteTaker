@@ -1,3 +1,3 @@
 # NoteTakingUsingJS
-a simple note taking app using html, css and js
-https://prosarahgamal.github.io/NoteTakingUsingJS/
+The most original app you will ever see
+I DARE YOU!!!
